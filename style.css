@@ -1,0 +1,54 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+
+body {
+  background-image: url("Mom\ day.jpg");
+  background-color: #cccccc;
+ }
+.profile{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+}
+h1{
+text-align: center;
+font-family: sans-serif;
+}
+h2{
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+text-align: center;
+font-family: cursive;
+}
+h4{
+text-align: right;
+font-family: monospace;
+}
+h4 {
+    font-size: 1.5rem;
+  }
+  
+  @keyframes wobb {
+    0%, 100%   {transform: translateY(0px)}
+    25%  {transform: translateY(-3px)}
+    75%  {transform: translateY(3px)}
+  }
+  
+  h4 {
+    animation-name: wobb;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 1000ms;
+    display: inline-block;
+    transform: translateY(0px);
+  }
+  
